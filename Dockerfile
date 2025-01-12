@@ -1,5 +1,6 @@
 # Use the official Ubuntu base image
 FROM ubuntu:latest
+
 # Update the package list and install Apache2
 RUN apt update && apt install -y apache2
 
