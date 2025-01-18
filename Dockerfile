@@ -4,9 +4,6 @@ FROM ubuntu:latest
 # Update the package list and install Apache2
 RUN apt update && apt install -y apache2
 
-#extra env
-ENV APP_NAME=website
-
 # Copy your project files to the Apache web directory
 ADD . /var/www/html/
 
